@@ -19,7 +19,7 @@ on:
         description: 'Path to a JSON file where configuration values are set.'
         type: string
         required: false
-        default: cypress.json
+        default: cypress.config.ts
       env:
         description: 'Sets Cypress environment variables'
         type: string
